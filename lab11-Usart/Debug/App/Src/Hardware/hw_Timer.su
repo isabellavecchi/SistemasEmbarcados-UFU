@@ -1,0 +1,3 @@
+../App/Src/Hardware/hw_Timer.c:10:6:hw_delay_ms	16	static
+../App/Src/Hardware/hw_Timer.c:14:10:getInstant	8	static
+../App/Src/Hardware/hw_Timer.c:18:6:hw_cpu_sleep	4	static

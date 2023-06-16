@@ -1,0 +1,3 @@
+timer.c:12:6:deboucingTimeCapsule	2
+timer.c:20:6:HAL_GPIO_EXTI_Callback	2
+timer.c:31:6:setCallbackFn	1

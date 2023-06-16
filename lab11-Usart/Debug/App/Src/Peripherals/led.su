@@ -1,0 +1,4 @@
+../App/Src/Peripherals/led.c:13:6:ledToggle	8	static
+../App/Src/Peripherals/led.c:17:6:ledEnable	8	static
+../App/Src/Peripherals/led.c:20:6:LedDisable	8	static
+../App/Src/Peripherals/led.c:24:6:getLedState	8	static

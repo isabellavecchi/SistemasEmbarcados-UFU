@@ -1,0 +1,5 @@
+../App/Src/app.c:25:6:appInit	8	static
+../App/Src/app.c:31:6:appLoop	8	static
+../App/Src/app.c:36:6:ToggleLED	16	static
+../App/Src/app.c:47:6:appSwitchInterrupt	4	static
+../App/Src/app.c:55:6:uart_data_received	8	static

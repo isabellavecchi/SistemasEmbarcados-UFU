@@ -1,0 +1,5 @@
+app.c:25:6:appInit	1
+app.c:31:6:appLoop	1
+app.c:36:6:ToggleLED	2
+app.c:47:6:appSwitchInterrupt	1
+app.c:55:6:uart_data_received	1

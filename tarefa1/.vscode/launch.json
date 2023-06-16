@@ -1,0 +1,33 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}/",
+            "executable": "${workspaceRoot}/blinky.elf",
+            "name": "Debug Blinky",
+            "request": "launch",
+            "type": "cortex-debug",
+            "preLaunchTask": "Make all",
+            "servertype": "openocd",
+            "device": "STM32F411CE",
+            "configFiles": [
+              "interface/stlink.cfg",
+              "target/stm32l4x.cfg"
+            ],
+            "postLaunchCommands": [
+              "interface/stlink.cfg",
+              "target/stm32f4x.cfg",
+              "monitor flash write_image erase blinky.bin 0x08000000"
+            ],
+            "linux": {
+              "svdFile": "${workspaceRoot}/svd/STM32F411.svd" //escreve todos os registradores de todos os perifericos - a st faz
+            //   stm32f411 no google -> CAD resources -> system view description -> procura pelo 411, copia e cola no arquivo e pasta
+            },
+            "runToEntryPoint": "board_app_initialize"
+            //"runToEntryPoint": "reset_handler"
+          }
+    ]
+}
