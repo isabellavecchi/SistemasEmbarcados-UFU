@@ -1,4 +1,0 @@
-hw_usart.c:13:5:hw_uart_tx	1
-hw_usart.c:20:5:hw_uart_rx	1
-hw_usart.c:27:6:setUartCallbackFn	1
-hw_usart.c:31:6:HAL_UART_RxCpltCallback	1

@@ -1,3 +1,0 @@
-hw_Timer.c:10:6:hw_delay_ms	1
-hw_Timer.c:14:10:getInstant	1
-hw_Timer.c:18:6:hw_cpu_sleep	1

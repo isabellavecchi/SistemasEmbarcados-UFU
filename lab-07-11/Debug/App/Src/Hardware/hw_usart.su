@@ -1,4 +1,0 @@
-../App/Src/Hardware/hw_usart.c:13:5:hw_uart_tx	24	static
-../App/Src/Hardware/hw_usart.c:20:5:hw_uart_rx	24	static
-../App/Src/Hardware/hw_usart.c:27:6:setUartCallbackFn	16	static
-../App/Src/Hardware/hw_usart.c:31:6:HAL_UART_RxCpltCallback	16	static

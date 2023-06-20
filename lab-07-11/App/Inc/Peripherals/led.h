@@ -17,4 +17,6 @@ void ledEnable(void);
 void ledDisable(void);
 bool getLedState(void);
 
+void setLEDCallbackFn(void (*callback)(void));
+
 #endif /* INC_PERIPHERALS_LED_H_ */

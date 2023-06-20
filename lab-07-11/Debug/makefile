@@ -13,6 +13,7 @@ RM := rm -rf
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
 -include App/Src/Peripherals/subdir.mk
+-include App/Src/Middleware/subdir.mk
 -include App/Src/Hardware/subdir.mk
 -include App/Src/subdir.mk
 -include objects.mk
@@ -37,34 +38,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := lab11-Usart
+BUILD_ARTIFACT_NAME := lab-07-11
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-lab11-Usart.elf \
+lab-07-11.elf \
 
 MAP_FILES += \
-lab11-Usart.map \
+lab-07-11.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-lab11-Usart.list \
+lab-07-11.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: lab11-Usart.elf secondary-outputs
+main-build: lab-07-11.elf secondary-outputs
 
 # Tool invocations
-lab11-Usart.elf lab11-Usart.map: $(OBJS) $(USER_OBJS) C:\Users\isabe\STM32CubeIDE\workspace_1.9.0\lab11-Usart\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "lab11-Usart.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\isabe\STM32CubeIDE\workspace_1.9.0\lab11-Usart\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab11-Usart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+lab-07-11.elf lab-07-11.map: $(OBJS) $(USER_OBJS) C:\Users\isabe\STM32CubeIDE\workspace_1.9.0\lab-07-11\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "lab-07-11.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\isabe\STM32CubeIDE\workspace_1.9.0\lab-07-11\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab-07-11.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,14 +74,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-lab11-Usart.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "lab11-Usart.list"
+lab-07-11.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "lab-07-11.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) default.size.stdout lab11-Usart.elf lab11-Usart.list lab11-Usart.map
+	-$(RM) default.size.stdout lab-07-11.elf lab-07-11.list lab-07-11.map
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

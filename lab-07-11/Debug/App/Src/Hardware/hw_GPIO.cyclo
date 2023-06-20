@@ -1,4 +1,0 @@
-hw_GPIO.c:10:6:hw_pin_toggle	1
-hw_GPIO.c:14:6:hw_enable_pin	1
-hw_GPIO.c:18:6:hw_disable_pin	1
-hw_GPIO.c:22:6:hw_get_pin_state	1

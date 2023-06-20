@@ -23,20 +23,20 @@
 bool hasAppStarted = false;
 
 void appInit(void) {
-	setCallbackFn(&appSwitchInterrupt);
-	setUartCallbackFn(&uart_data_received);
+	setLEDCallbackFn(&appSwitchInterrupt);
+	hw_setUartCallbackFn(&uart_data_received);
 	hasAppStarted = true;
 }
 
 void appLoop(void){
 //	ToggleLED(300);
-	hw_cpu_sleep();
+	hw_cpuSleep();
 }
 
 void ToggleLED (int time_ms) {
 	static uint32_t pressStart = 0;
-	pressStart = getInstant();
-	if (getInstant() - pressStart < time_ms) {
+	pressStart = hw_getInstant();
+	if (hw_getInstant() - pressStart < time_ms) {
 		ledToggle();
 	}
 }

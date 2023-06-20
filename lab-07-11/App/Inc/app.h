@@ -9,8 +9,7 @@
 #define INC_BLINKAPP_APP_H_
 
 #include "led.h"
-#include "timer.h"
-#include "hw_usart.h"
+#include "tim3.h"#include "hw_usart.h"
 
 
 void ToggleLED (int time_ms);

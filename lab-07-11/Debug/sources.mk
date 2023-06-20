@@ -23,6 +23,7 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 App/Src/Hardware \
+App/Src/Middleware \
 App/Src/Peripherals \
 App/Src \
 Core/Src \
