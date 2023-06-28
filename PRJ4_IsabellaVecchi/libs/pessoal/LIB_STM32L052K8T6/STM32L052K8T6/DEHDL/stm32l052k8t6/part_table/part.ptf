@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32L052K8T6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32L052K8T6" (!) = "", "QFP80P900X900X160-32N", "Quad Flat Packages", "511-STM32L052K8T6", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L052K8T6?qs=DqCdCwOw4%2F7bLOyPbGT9mw%3D%3D", "STM32L052K8T6", "https://www.arrow.com/en/products/stm32l052k8t6/stmicroelectronics?region=nac", "ARM Microcontrollers - MCU Ultra-low power ARM Cortex-M0+ MCU with 64-Kbyte Flash, 32 MHz CPU, USB", "https://mouser.componentsearchengine.com/Datasheets/1/STM32L052K8T6.pdf", "1.6 mm"
+END_PART
+
+END.

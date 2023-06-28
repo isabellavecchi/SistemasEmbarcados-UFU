@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NTD4858N-35G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-12-13-19:38:49)
+    (mountForm default
+        (footprintRef "NTD4858N35G")
+        (spec "System")
+    )
+)

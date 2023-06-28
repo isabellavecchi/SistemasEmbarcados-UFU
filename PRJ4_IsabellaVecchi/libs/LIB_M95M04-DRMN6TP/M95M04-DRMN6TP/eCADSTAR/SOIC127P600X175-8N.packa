@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "M95M04-DRMN6TP"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-21-16:45:31)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

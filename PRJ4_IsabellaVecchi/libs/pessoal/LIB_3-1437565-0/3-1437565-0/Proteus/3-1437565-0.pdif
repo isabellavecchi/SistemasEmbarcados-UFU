@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "3-1437565-0"
+   (description "TE CONNECTIVITY / ALCOSWITCH - 3-1437565-0 - SWITCH, SPST, 0.05A, 24VDC, SMD")
+   (family "SWI")
+   (package "314375650")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0")
+   (attribute "Geometry.Height" "4.39mm")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "3-1437565-0")
+   (attribute "Mouser Part Number" "506-3-1437565-0")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/3-1437565-0?qs=%2FwXgF%2FfIho%2FDAgSy8ONeew%3D%3D")
+   (attribute "Arrow Part Number" "3-1437565-0")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/3-1437565-0/te-connectivity?region=europe")
+   (gate
+    (symbol "3-1437565-0")
+    (pin "COM_1" 1 PS)
+    (pin "COM_2" 2 PS)
+    (pin "NO_1" 3 PS)
+    (pin "NO_2" 4 PS)
+   )
+  )
+  (symbol "3-1437565-0"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "314375650"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 3 3)
+      (pt -3 3)
+      (pt -3 -3)
+      (pt 3 -3)
+      (pt 3 3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 3 3)
+      (pt -3 3)
+      (pt -3 -3)
+      (pt 3 -3)
+      (pt 3 3))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 3.5 6.1)
+      (pt -4 6.1)
+      (pt -4 -6.1)
+      (pt 3.5 -6.1)
+      (pt 3.5 6.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.4 4.7)
+      (arc (pt -3.400 4.700) (pt -3.300 4.500) (pt -3.500 4.700) (start 180.0) (sweep 90.0))
+      (pt -3.4 4.5)
+      (arc (pt -3.400 4.500) (pt -3.300 4.500) (pt -3.500 4.700) (start 180.0) (sweep -90.0))
+      (pt -3.4 4.7))))
+   (leg 1 (pt -2.230 4.550) (padstack 0))
+   (leg 2 (pt -2.230 -4.550) (padstack 0))
+   (leg 3 (pt 2.230 4.550) (padstack 0))
+   (leg 4 (pt 2.230 -4.550) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.400 2.100 0 0 90.000))
+   )
+   (model "3-1437565-0.stp"
+    (euler 0 0 0)
+    (offset 0 0 3.6700000762939453)
+   )
+  )
+ )
+)

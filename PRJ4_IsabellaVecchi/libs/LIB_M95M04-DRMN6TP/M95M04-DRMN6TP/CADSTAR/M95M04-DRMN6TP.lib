@@ -1,0 +1,18 @@
+.M95M04-DRMN6TP :1 ;EEPROM Serial-SPI 4M-bit 512K x 8 2.5V/3.3V/5V T/R
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="'S'" 2="Q" 3="'W'" 4="VSS" 5="D" 6="C" 7="'HOLD'" 8="VCC"
+*MXP 8
+*DFN M95M04-DRMN6TP
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (M95M04-DRMN6TP)
+~!Mouser Part Number (511-M95M04-DRMN6TP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M95M04-DRMN6TP?qs=wnTfsH77Xs47afrs3bIJjQ%3D%3D)
+~!Arrow Part Number (M95M04-DRMN6TP)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/m95m04-drmn6tp/stmicroelectronics)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/M95M04-DRMN6TP.pdf)
+~!Height (1.75mm)
+~!3D_Model (M95M04-DRMN6TP)
+M95M04-DRMN6TP
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,0 +1,19 @@
+.RTE44012F :1 ;General Purpose Relays DPST-NO 8A 12VDC
+RTE44012F
+*STM K
+*NGS
+*PNM 1=11 2=14 3=21 4=24 5=A1 6=A2
+*PLB 1="COM_1" 2="NO_1" 3="COM_2" 4="NO_2" 5="COIL_1" 6="COIL_2"
+*MXP 6
+*DFN RTE44012F
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (RTE44012F)
+~!Mouser Part Number (655-RTE44012F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Schrack/RTE44012F?qs=Y5%2F84ptk%252BSrIWNIdEjPZnw%3D%3D)
+~!Arrow Part Number (RTE44012F)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/rte44012f/te-connectivity)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/RTE44012F.pdf)
+~!Height (15.7mm)
+~!3D_Model (RTE44012F)
+RTE44012F
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

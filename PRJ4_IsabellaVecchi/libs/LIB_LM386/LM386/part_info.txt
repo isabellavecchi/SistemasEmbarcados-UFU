@@ -1,0 +1,9 @@
+Manufacturer=Samsung
+PartNumber=LM386
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=1.1
+Released=
+Downloaded=2022-07-30 20:16:08
+3D=Y

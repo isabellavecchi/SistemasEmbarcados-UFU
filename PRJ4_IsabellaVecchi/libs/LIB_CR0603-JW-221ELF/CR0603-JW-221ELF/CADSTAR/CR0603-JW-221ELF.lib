@@ -1,0 +1,18 @@
+.CR0603-JW-221ELF :1 ;Thick Film Resistors - SMD 220 OHM 5%
+RESC1608X55N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CR0603-JW-221ELF
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CR0603-JW-221ELF)
+~!Mouser Part Number (652-CR0603-JW-221ELF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/CR0603-JW-221ELF?qs=fHUSiUi5wE16cUpGEfmz2w%3D%3D)
+~!Arrow Part Number (CR0603-JW-221ELF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cr0603-jw-221elf/bourns)
+~!Link Datasheet (https://www.bourns.com/pdfs/chpreztr.pdf)
+~!Height (0.55mm)
+~!3D_Model (CR0603-JW-221ELF)
+CR0603-JW-221ELF
+1.1!U 2.1!U 

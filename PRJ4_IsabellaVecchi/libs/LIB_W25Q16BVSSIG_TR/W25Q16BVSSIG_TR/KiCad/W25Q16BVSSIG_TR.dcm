@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25Q16BVSSIG_TR
+D IC FLASH 16M SPI 104MHZ 8SOIC
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Winbond%20PDFs/W25Q16BV.pdf
+$ENDCMP
+#
+#End Doc Library

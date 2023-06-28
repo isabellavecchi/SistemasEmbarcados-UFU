@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'W25Q16BVSSIG_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Winbond", "W25Q16BVSSIG TR" (!) = "", "SOIC127P790X216-8N", "Small Outline Packages", "N/A", "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q16BVSSIG-TR?qs=rkhjVJ6%2F3EKjTa61MhmWkw%3D%3D", "", "", "IC FLASH 16M SPI 104MHZ 8SOIC", "https://media.digikey.com/pdf/Data%20Sheets/Winbond%20PDFs/W25Q16BV.pdf", "2.16 mm"
+END_PART
+
+END.

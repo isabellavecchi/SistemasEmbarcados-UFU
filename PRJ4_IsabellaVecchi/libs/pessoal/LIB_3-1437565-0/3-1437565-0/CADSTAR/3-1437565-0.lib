@@ -1,0 +1,18 @@
+.3-1437565-0 :1 ;TE CONNECTIVITY / ALCOSWITCH - 3-1437565-0 - SWITCH, SPST, 0.05A, 24VDC, SMD
+"314375650"
+*STM S
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="NO_1" 4="NO_2"
+*MXP 4
+*DFN 3-1437565-0
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (3-1437565-0)
+~!Mouser Part Number (506-3-1437565-0)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/3-1437565-0?qs=%2FwXgF%2FfIho%2FDAgSy8ONeew%3D%3D)
+~!Arrow Part Number (3-1437565-0)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/3-1437565-0/te-connectivity?region=europe)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0)
+~!Height (4.39mm)
+~!3D_Model (3-1437565-0)
+"3-1437565-0"
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,18 @@
+.STM32L052K8T6 :1 ;ARM Microcontrollers - MCU Ultra-low power ARM Cortex-M0+ MCU with 64-Kbyte Flash, 32 MHz CPU, USB
+QFP80P900X900X160-32N
+*STM IC
+*NGS
+*PLB 1="VDD_1" 2="PC14-OSC32_IN" 3="PC15-OSC32_OUT" 4="NRST" 5="VDDA" 6="PA0" 7="PA1" 8="PA2" 9="PA3" 10="PA4" 11="PA5" 12="PA6" 13="PA7" 14="PB0" 15="PB1" 16="VSS_1" 17="VDD_2" 18="PA8" 19="PA9" 20="PA10" 21="PA11" 22="PA12" 23="PA13" 24="PA14" 25="PA15" 26="PB3" 27="PB4" 28="PB5" 29="PB6" 30="PB7" 31="BOOT0" 32="VSS_2"
+*MXP 32
+*DFN STM32L052K8T6
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (STM32L052K8T6)
+~!Mouser Part Number (511-STM32L052K8T6)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L052K8T6?qs=DqCdCwOw4%2F7bLOyPbGT9mw%3D%3D)
+~!Arrow Part Number (STM32L052K8T6)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/stm32l052k8t6/stmicroelectronics?region=nac)
+~!Link Datasheet (https://mouser.componentsearchengine.com/Datasheets/1/STM32L052K8T6.pdf)
+~!Height (1.6mm)
+~!3D_Model (STM32L052K8T6)
+STM32L052K8T6
+1.1!P 2.1!U 3.1!U 4.1!U 5.1!P 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!G 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!P 32.1!G 31.1!I 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

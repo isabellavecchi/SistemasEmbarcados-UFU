@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C1005X6S0G105K050BB
+D Capacitor MLCC 0402 4V 1uF X6S
+K
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
+#End Doc Library

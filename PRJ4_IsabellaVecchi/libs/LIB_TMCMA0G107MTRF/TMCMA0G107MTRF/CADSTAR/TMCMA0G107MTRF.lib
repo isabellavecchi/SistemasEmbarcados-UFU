@@ -1,0 +1,18 @@
+.TMCMA0G107MTRF :1 ;Tantalum Capacitors - Solid SMD 100uF 4V 20% A case
+TMCMA0G107MTRF
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN TMCMA0G107MTRF
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (TMCMA0G107MTRF)
+~!Mouser Part Number (74-TMCMA0G107MTRF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/TMCMA0G107MTRF?qs=NgbZBzc1CyFRT2%252B5t9x4xw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/TMCMA0G107MTRF.pdf)
+~!Height (1.8mm)
+~!3D_Model (TMCMA0G107MTRF)
+TMCMA0G107MTRF
+1.1!U 2.1!U 

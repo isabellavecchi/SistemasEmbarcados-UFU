@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM386'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Samsung", "LM386" (!) = "", "DIP780W60P260L900H410Q8N", "Dual-In-Line Packages", "", "", "", "", "Audio Amplifier", "https://components101.com/ics/lm386-audio-amplifier-ic-pinout-circuit-datasheet", "4.1 mm"
+END_PART
+
+END.

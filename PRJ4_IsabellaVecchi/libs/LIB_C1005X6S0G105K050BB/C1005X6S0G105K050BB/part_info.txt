@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=C1005X6S0G105K050BB
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=2.2
+Released=2016-06-28 14:19:55
+Downloaded=2022-07-30 20:16:41
+3D=Y

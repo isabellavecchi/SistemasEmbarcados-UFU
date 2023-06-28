@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTD4858N-35G
+D MOSFET NFET 25V 73A 0.0062R DPAK
+K
+F https://www.onsemi.com/pub/Collateral/NTD4858N-D.PDF
+$ENDCMP
+#
+#End Doc Library

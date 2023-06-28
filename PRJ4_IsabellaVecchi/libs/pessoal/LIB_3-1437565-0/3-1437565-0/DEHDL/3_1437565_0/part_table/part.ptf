@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3_1437565_0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "3-1437565-0" (!) = "", "314375650", "Other", "506-3-1437565-0", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/3-1437565-0?qs=%2FwXgF%2FfIho%2FDAgSy8ONeew%3D%3D", "3-1437565-0", "https://www.arrow.com/en/products/3-1437565-0/te-connectivity?region=europe", "TE CONNECTIVITY / ALCOSWITCH - 3-1437565-0 - SWITCH, SPST, 0.05A, 24VDC, SMD", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0", "4.39 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32L052K8T6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=32
+Version=1.1
+Released=2019-05-02 15:24:47
+Downloaded=2023-05-31 18:31:00
+3D=Y

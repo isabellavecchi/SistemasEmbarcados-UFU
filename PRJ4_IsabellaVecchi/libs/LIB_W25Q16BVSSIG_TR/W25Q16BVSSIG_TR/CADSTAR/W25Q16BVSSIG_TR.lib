@@ -1,0 +1,18 @@
+.W25Q16BVSSIG_TR :1 ;IC FLASH 16M SPI 104MHZ 8SOIC
+SOIC127P790X216-8N
+*STM IC
+*NGS
+*PLB 1="/CS" 2="DO(IO1)" 3="/WP(IO2)" 4="GND" 5="DI(IO0)" 6="CLK" 7="/HOLD(IO3)" 8="VCC"
+*MXP 8
+*DFN W25Q16BVSSIG_TR
+~!Manufacturer_Name (Winbond)
+~!Manufacturer_Part_Number (W25Q16BVSSIG TR)
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Winbond/W25Q16BVSSIG-TR?qs=rkhjVJ6%2F3EKjTa61MhmWkw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://media.digikey.com/pdf/Data%20Sheets/Winbond%20PDFs/W25Q16BV.pdf)
+~!Height (2.16mm)
+~!3D_Model (W25Q16BVSSIG_TR)
+W25Q16BVSSIG_TR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

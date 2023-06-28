@@ -1,0 +1,18 @@
+.NTD4858N-35G :1 ;MOSFET NFET 25V 73A 0.0062R DPAK
+NTD4858N35G
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN NTD4858N-35G
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (NTD4858N-35G)
+~!Mouser Part Number (863-NTD4858N-35G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NTD4858N-35G?qs=t2BMfLoP1KToQIN0Enz8Jw%3D%3D)
+~!Arrow Part Number (NTD4858N-35G)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ntd4858n-35g/on-semiconductor?region=nac)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/NTD4858N-D.PDF)
+~!Height (9.59mm)
+~!3D_Model (NTD4858N-35G)
+NTD4858N-35G
+1.1!U 2.1!U 3.1!U 

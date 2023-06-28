@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCM0G226M8R
+D Tantalum Capacitors - Solid SMD 0603 4V 22uF 20% Tantalum Cap-bottom
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/passive/tantalum_capacitor/tantalum_chip_capacitor/tc_m-e.pdf
+$ENDCMP
+#
+#End Doc Library

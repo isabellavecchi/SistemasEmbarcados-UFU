@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N3904S
+D x
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/KECC/KECC-S-A0011628560/KECC-S-A0011628560-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+#End Doc Library

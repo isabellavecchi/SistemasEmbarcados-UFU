@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=M95M04-DRMN6TP
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2020-04-21 16:45:31
+Downloaded=2022-07-30 20:15:59
+3D=Y

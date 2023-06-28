@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32L052K8T6
+D ARM Microcontrollers - MCU Ultra-low power ARM Cortex-M0+ MCU with 64-Kbyte Flash, 32 MHz CPU, USB
+K
+F https://mouser.componentsearchengine.com/Datasheets/1/STM32L052K8T6.pdf
+$ENDCMP
+#
+#End Doc Library

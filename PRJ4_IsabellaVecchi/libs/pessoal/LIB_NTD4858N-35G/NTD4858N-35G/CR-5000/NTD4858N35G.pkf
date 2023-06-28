@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "NTD4858N35G"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "NTD4858N35G")
+        (spec "default")
+    )
+)

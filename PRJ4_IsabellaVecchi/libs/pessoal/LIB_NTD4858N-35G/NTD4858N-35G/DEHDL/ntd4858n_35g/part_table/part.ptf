@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NTD4858N_35G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "NTD4858N-35G" (!) = "", "NTD4858N35G", "Other", "863-NTD4858N-35G", "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NTD4858N-35G?qs=t2BMfLoP1KToQIN0Enz8Jw%3D%3D", "NTD4858N-35G", "https://www.arrow.com/en/products/ntd4858n-35g/on-semiconductor?region=nac", "MOSFET NFET 25V 73A 0.0062R DPAK", "https://www.onsemi.com/pub/Collateral/NTD4858N-D.PDF", "9.59 mm"
+END_PART
+
+END.

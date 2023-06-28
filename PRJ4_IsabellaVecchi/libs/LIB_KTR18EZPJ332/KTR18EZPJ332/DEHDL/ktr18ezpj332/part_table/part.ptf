@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KTR18EZPJ332'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "KTR18EZPJ332" (!) = "", "RESC3216X65N", "Resistor Chip", "755-KTR18EZPJ332", "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/KTR18EZPJ332?qs=DyUWGjl%252BcVu4gpCExuaT6A%3D%3D", "", "", "Thick Film Resistors - SMD 1206 3.3Kohm 5% High VoltageAEC-Q200", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e2f1c7f0b3c549e70fed117c8f559ad0.pdf", "0.65 mm"
+END_PART
+
+END.

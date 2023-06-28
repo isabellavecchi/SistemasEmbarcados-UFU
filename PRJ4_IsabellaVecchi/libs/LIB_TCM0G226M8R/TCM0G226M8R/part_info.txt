@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=TCM0G226M8R
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Moulded Polarised
+PinCount=2
+Version=1.1
+Released=2021-02-15 08:17:03
+Downloaded=2022-07-30 20:16:36
+3D=Y

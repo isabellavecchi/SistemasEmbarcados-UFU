@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=3-1437565-0
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2019-11-05 09:49:35
+Downloaded=2023-06-28 07:52:03
+3D=Y

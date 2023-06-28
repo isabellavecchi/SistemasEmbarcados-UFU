@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TCM0G226M8R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "TCM0G226M8R" (!) = "", "CAPPM168X90N", "Capacitor Moulded Polarised", "755-TCM0G226M8R", "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/TCM0G226M8R?qs=gmcn8Ik9O3GljnNhUa9baQ%3D%3D", "", "", "Tantalum Capacitors - Solid SMD 0603 4V 22uF 20% Tantalum Cap-bottom", "https://fscdn.rohm.com/en/products/databook/datasheet/passive/tantalum_capacitor/tantalum_chip_capacitor/tc_m-e.pdf", "0.9 mm"
+END_PART
+
+END.

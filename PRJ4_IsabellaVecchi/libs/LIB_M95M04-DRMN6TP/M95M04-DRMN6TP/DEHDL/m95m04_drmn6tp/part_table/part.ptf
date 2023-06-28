@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'M95M04_DRMN6TP'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "M95M04-DRMN6TP" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "511-M95M04-DRMN6TP", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M95M04-DRMN6TP?qs=wnTfsH77Xs47afrs3bIJjQ%3D%3D", "M95M04-DRMN6TP", "https://www.arrow.com/en/products/m95m04-drmn6tp/stmicroelectronics", "EEPROM Serial-SPI 4M-bit 512K x 8 2.5V/3.3V/5V T/R", "https://componentsearchengine.com/Datasheets/1/M95M04-DRMN6TP.pdf", "1.75 mm"
+END_PART
+
+END.

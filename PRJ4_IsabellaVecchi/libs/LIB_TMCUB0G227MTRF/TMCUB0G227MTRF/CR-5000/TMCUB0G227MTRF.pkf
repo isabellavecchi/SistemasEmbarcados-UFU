@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TMCUB0G227MTRF"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TMCUB0G227MTRF")
+        (spec "default")
+    )
+)

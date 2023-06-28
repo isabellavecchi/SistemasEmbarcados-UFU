@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M95M04-DRMN6TP
+D EEPROM Serial-SPI 4M-bit 512K x 8 2.5V/3.3V/5V T/R
+K
+F https://componentsearchengine.com/Datasheets/1/M95M04-DRMN6TP.pdf
+$ENDCMP
+#
+#End Doc Library

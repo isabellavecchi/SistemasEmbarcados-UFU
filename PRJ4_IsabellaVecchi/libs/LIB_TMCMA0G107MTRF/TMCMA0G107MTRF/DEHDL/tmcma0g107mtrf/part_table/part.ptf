@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TMCMA0G107MTRF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "TMCMA0G107MTRF" (!) = "", "TMCMA0G107MTRF", "Other", "74-TMCMA0G107MTRF", "https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/TMCMA0G107MTRF?qs=NgbZBzc1CyFRT2%252B5t9x4xw%3D%3D", "", "", "Tantalum Capacitors - Solid SMD 100uF 4V 20% A case", "https://componentsearchengine.com/Datasheets/1/TMCMA0G107MTRF.pdf", "1.8 mm"
+END_PART
+
+END.

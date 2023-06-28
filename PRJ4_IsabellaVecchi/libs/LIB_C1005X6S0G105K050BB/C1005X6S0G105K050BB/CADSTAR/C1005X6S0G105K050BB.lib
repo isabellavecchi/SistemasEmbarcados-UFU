@@ -1,0 +1,18 @@
+.C1005X6S0G105K050BB :1 ;Capacitor MLCC 0402 4V 1uF X6S
+CAPC1005X55N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C1005X6S0G105K050BB
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (C1005X6S0G105K050BB)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf)
+~!Height (0.55mm)
+~!3D_Model (C1005X6S0G105K050BB)
+C1005X6S0G105K050BB
+1.1!U 2.1!U 

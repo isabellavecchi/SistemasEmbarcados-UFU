@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FSM2JSMATR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TE Connectivity", "FSM2JSMATR" (!) = "", "FSM4JSMATR", "Other", "506-FSM2JSMATR", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Alcoswitch/FSM2JSMATR?qs=WGv6JurbshdZYN8XLDBFWg%3D%3D", "FSM2JSMATR", "https://www.arrow.com/en/products/fsm2jsmatr/te-connectivity?region=nac", "Tactile switch,SMT,SPST,raised grey act", "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0"
+END_PART
+
+END.
