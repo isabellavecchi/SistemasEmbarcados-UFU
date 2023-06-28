@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=NTD4858N-35G
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=1.5
+Released=2020-12-13 19:38:49
+Downloaded=2023-06-27 21:13:43
+3D=Y

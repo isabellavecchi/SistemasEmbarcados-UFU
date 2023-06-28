@@ -1,0 +1,18 @@
+.LM386 :1 ;Audio Amplifier
+DIP780W60P260L900H410Q8N
+*STM IC
+*NGS
+*PLB 1="GAIN_1" 2="''" 3="INPUT" 4="GROUND" 5="VOUT" 6="VSS" 7="BYPASS" 8="GAIN_2"
+*MXP 8
+*DFN LM386
+~!Manufacturer_Name (Samsung)
+~!Manufacturer_Part_Number (LM386)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://components101.com/ics/lm386-audio-amplifier-ic-pinout-circuit-datasheet)
+~!Height (4.1mm)
+~!3D_Model (LM386)
+LM386
+1.1!U 2.1!I 3.1!I 4.1!G 8.1!U 7.1!U 6.1!P 5.1!Y 

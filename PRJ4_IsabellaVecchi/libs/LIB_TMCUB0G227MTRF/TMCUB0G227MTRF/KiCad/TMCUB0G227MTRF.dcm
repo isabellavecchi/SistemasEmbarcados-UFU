@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMCUB0G227MTRF
+D Tantalum Capacitors - Solid SMD 4volts 220uF 20% Molded Case
+K
+F https://www.mouser.com/datasheet/2/427/VISH_S_A0011280539_1-2571762.pdf
+$ENDCMP
+#
+#End Doc Library

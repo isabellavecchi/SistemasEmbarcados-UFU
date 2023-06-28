@@ -1,0 +1,9 @@
+Manufacturer=Winbond
+PartNumber=W25Q16BVSSIG TR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2018-07-13 13:24:35
+Downloaded=2022-07-31 16:17:39
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=CR0603-JW-221ELF
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=2.2
+Released=2016-06-24 13:36:39
+Downloaded=2022-07-30 19:57:30
+3D=Y

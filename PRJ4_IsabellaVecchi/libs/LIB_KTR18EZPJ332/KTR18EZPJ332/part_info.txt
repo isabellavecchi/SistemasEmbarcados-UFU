@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=KTR18EZPJ332
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2018-04-03 18:18:17
+Downloaded=2022-07-30 20:05:41
+3D=Y

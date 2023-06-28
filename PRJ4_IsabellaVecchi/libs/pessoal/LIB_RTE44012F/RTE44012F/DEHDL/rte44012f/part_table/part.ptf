@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RTE44012F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "RTE44012F" (!) = "", "RTE44012F", "Other", "655-RTE44012F", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Schrack/RTE44012F?qs=Y5%2F84ptk%252BSrIWNIdEjPZnw%3D%3D", "RTE44012F", "https://www.arrow.com/en/products/rte44012f/te-connectivity", "General Purpose Relays DPST-NO 8A 12VDC", "https://componentsearchengine.com/Datasheets/1/RTE44012F.pdf", "15.7 mm"
+END_PART
+
+END.

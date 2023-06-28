@@ -1,0 +1,18 @@
+.TCM0G226M8R :1 ;Tantalum Capacitors - Solid SMD 0603 4V 22uF 20% Tantalum Cap-bottom
+CAPPM168X90N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN TCM0G226M8R
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (TCM0G226M8R)
+~!Mouser Part Number (755-TCM0G226M8R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/TCM0G226M8R?qs=gmcn8Ik9O3GljnNhUa9baQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/passive/tantalum_capacitor/tantalum_chip_capacitor/tc_m-e.pdf)
+~!Height (0.9mm)
+~!3D_Model (TCM0G226M8R)
+TCM0G226M8R
+1.1!U 2.1!U 

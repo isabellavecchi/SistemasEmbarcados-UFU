@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM386"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-02-14-13:00:02)
+    (mountForm default
+        (footprintRef "DIP780W60P260L900H410Q8N")
+        (spec "System")
+    )
+)

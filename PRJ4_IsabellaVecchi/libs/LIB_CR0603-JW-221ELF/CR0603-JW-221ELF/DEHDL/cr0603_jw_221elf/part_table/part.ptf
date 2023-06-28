@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CR0603_JW_221ELF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "CR0603-JW-221ELF" (!) = "", "RESC1608X55N", "Resistor Chip", "652-CR0603-JW-221ELF", "https://www.mouser.co.uk/ProductDetail/Bourns/CR0603-JW-221ELF?qs=fHUSiUi5wE16cUpGEfmz2w%3D%3D", "CR0603-JW-221ELF", "https://www.arrow.com/en/products/cr0603-jw-221elf/bourns", "Thick Film Resistors - SMD 220 OHM 5%", "https://www.bourns.com/pdfs/chpreztr.pdf", "0.55 mm"
+END_PART
+
+END.

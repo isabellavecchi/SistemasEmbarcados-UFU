@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM386
+D Audio Amplifier
+K
+F https://components101.com/ics/lm386-audio-amplifier-ic-pinout-circuit-datasheet
+$ENDCMP
+#
+#End Doc Library

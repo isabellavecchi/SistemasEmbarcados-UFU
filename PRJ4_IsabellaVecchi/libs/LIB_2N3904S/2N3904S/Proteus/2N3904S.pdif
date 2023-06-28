@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "2N3904S"
+   (description "x")
+   (family "TRX")
+   (package "SOT95P245X130-3N")
+   (attribute "Datasheet Link" "https://4donline.ihs.com/images/VipMasterIC/IC/KECC/KECC-S-A0011628560/KECC-S-A0011628560-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0")
+   (attribute "Geometry.Height" "1.3mm")
+   (attribute "Manufacturer_Name" "KEC")
+   (attribute "Manufacturer_Part_Number" "2N3904S")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "2N3904S")
+    (pin "B" 2 IO)
+    (pin "E" 1 IO)
+    (pin "C" 3 IO)
+   )
+  )
+  (symbol "2N3904S"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 150) (pt 300 -150))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 50) (pt 400 150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -50) (pt 400 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -150) (pt 400 -200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 150) (pt 400 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 330 -100) (pt 350 -80) (pt 370 -120) (pt 330 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 -300) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 300) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT95P245X130-3N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.975 1.815)
+      (pt 1.975 1.815)
+      (pt 1.975 -1.815)
+      (pt -1.975 -1.815)
+      (pt -1.975 1.815))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.662 1.465)
+      (pt 0.662 1.465)
+      (pt 0.662 -1.465)
+      (pt -0.662 -1.465)
+      (pt -0.662 1.465))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.662 0.515)
+      (pt 0.288 1.465))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.425 1.465)
+      (pt 0.425 1.465)
+      (pt 0.425 -1.465)
+      (pt -0.425 -1.465)
+      (pt -0.425 1.465))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.725 1.55)
+      (pt -0.775 1.55))))
+   (leg 1 (pt -1.25 0.95) (padstack 0))
+   (leg 2 (pt -1.25 -0.95) (padstack 0))
+   (leg 3 (pt 1.25 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.7 0.95 0 0 0))
+   )
+   (model "2N3904S.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

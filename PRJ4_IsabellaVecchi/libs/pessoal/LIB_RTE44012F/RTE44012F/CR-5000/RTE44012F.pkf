@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RTE44012F"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RTE44012F")
+        (spec "default")
+    )
+)

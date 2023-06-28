@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RTE44012F"
+   (description "General Purpose Relays DPST-NO 8A 12VDC")
+   (family "RLY")
+   (package "RTE44012F")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/RTE44012F.pdf")
+   (attribute "Geometry.Height" "15.7mm")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "RTE44012F")
+   (attribute "Mouser Part Number" "655-RTE44012F")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Schrack/RTE44012F?qs=Y5%2F84ptk%252BSrIWNIdEjPZnw%3D%3D")
+   (attribute "Arrow Part Number" "RTE44012F")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/rte44012f/te-connectivity")
+   (gate
+    (symbol "RTE44012F")
+    (pin "COM_1" 11 PS)
+    (pin "NO_1" 14 PS)
+    (pin "COM_2" 21 PS)
+    (pin "NO_2" 24 PS)
+    (pin "COIL_1" A1 PS)
+    (pin "COIL_2" A2 PS)
+   )
+  )
+  (symbol "RTE44012F"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RTE44012F"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -22.13 -2.6)
+      (pt 6.87 -2.6)
+      (pt 6.87 10.1)
+      (pt -22.13 10.1)
+      (pt -22.13 -2.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -22.13 -2.6)
+      (pt 6.87 -2.6)
+      (pt 6.87 10.1)
+      (pt -22.13 10.1)
+      (pt -22.13 -2.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -23.13 -3.6)
+      (pt 7.87 -3.6)
+      (pt 7.87 11.1)
+      (pt -23.13 11.1)
+      (pt -23.13 -3.6))))
+   (leg 11 (pt 0.000 0.000) (padstack 0))
+   (leg 14 (pt 5.040 0.000) (padstack 0))
+   (leg 21 (pt 0.000 7.500) (padstack 0))
+   (leg 24 (pt 5.040 7.500) (padstack 0))
+   (leg A1 (pt -20.300 0.000) (padstack 0))
+   (leg A2 (pt -20.300 7.500) (padstack 0))
+   (padstack 0
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (round 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (round 2.100))
+   )
+   (model "RTE44012F.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

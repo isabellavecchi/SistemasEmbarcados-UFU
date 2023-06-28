@@ -1,0 +1,140 @@
+
+(EDIF
+  (rename &RTE44012F "RTE44012F")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 06 27 19 46 16)
+      (dataOrigin "881425/1167680/2.50/6/4/Relay or Contactor")
+      (program "SamacSys ECAD Model RTE44012F"
+        (version "1.4"))))
+  (library
+  (rename &RTE44012F "RTE44012F")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &RTE44012F "RTE44012F")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "K")
+          (property (rename PACKAGENAME "PackageName") (string "RTE44012F"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "RTE44012F"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "TE Connectivity"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "RTE44012F"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "655-RTE44012F"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Schrack/RTE44012F?qs=Y5%2F84ptk%252BSrIWNIdEjPZnw%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "RTE44012F"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/rte44012f/te-connectivity"))
+          (property (rename &Description "Description") (string "General Purpose Relays DPST-NO 8A 12VDC"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://componentsearchengine.com/Datasheets/1/RTE44012F.pdf"))
+          (property (rename &Height "Height") (string "15.7 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "RTE44012F"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &COM_1 "COM_1")
+            (designator "11")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &NO_1 "NO_1")
+            (designator "14")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &COM_2 "COM_2")
+            (designator "21")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &NO_2 "NO_2")
+            (designator "24")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &COIL_1 "COIL_1")
+            (designator "A1")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &COIL_2 "COIL_2")
+            (designator "A2")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &COM_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &NO_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &COM_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -200) (pt 1100 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -200))))
+            )
+            (portImplementation
+              (name &NO_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -300) (pt 1100 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -300))))
+            )
+            (portImplementation
+              (name &COIL_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &COIL_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -100) (pt 1100 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 900 0)
+                  (pt 900 -400)
+                  (pt 0 -400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 30))))
+          )
+        )
+      )
+    )
+  )
+)

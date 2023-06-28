@@ -1,0 +1,18 @@
+.FSM2JSMATR :1 ;Tactile switch,SMT,SPST,raised grey act
+FSM4JSMATR
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN FSM2JSMATR
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (FSM2JSMATR)
+~!Mouser Part Number (506-FSM2JSMATR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Alcoswitch/FSM2JSMATR?qs=WGv6JurbshdZYN8XLDBFWg%3D%3D)
+~!Arrow Part Number (FSM2JSMATR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fsm2jsmatr/te-connectivity?region=nac)
+~!Link Datasheet (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0)
+~!Height (-)
+~!3D_Model (FSM2JSMATR)
+FSM2JSMATR
+1.1!U 2.1!U 3.1!U 4.1!U 

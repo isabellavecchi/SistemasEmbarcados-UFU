@@ -1,0 +1,173 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NTD4858N-35G"
+   (description "MOSFET NFET 25V 73A 0.0062R DPAK")
+   (family "TRX")
+   (package "NTD4858N35G")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/NTD4858N-D.PDF")
+   (attribute "Geometry.Height" "9.59mm")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "NTD4858N-35G")
+   (attribute "Mouser Part Number" "863-NTD4858N-35G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NTD4858N-35G?qs=t2BMfLoP1KToQIN0Enz8Jw%3D%3D")
+   (attribute "Arrow Part Number" "NTD4858N-35G")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/ntd4858n-35g/on-semiconductor?region=nac")
+   (gate
+    (symbol "NTD4858N-35G")
+    (pin "G" 1 PS)
+    (pin "D" 2 PS)
+    (pin "S" 3 PS)
+   )
+  )
+  (symbol "NTD4858N-35G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 100) (pt 100 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 300 300))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 230 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 220) (pt 230 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -20) (pt 230 20))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 80) (pt 230 120))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 230 100) (pt 270 120) (pt 270 80) (pt 230 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 400) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "NTD4858N35G"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.99 1.25)
+      (pt 5.55 1.25)
+      (pt 5.55 -1.035)
+      (pt -0.99 -1.035)
+      (pt -0.99 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.99 2.25)
+      (pt 6.55 2.25)
+      (pt 6.55 -2.035)
+      (pt -1.99 -2.035)
+      (pt -1.99 2.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0 -1.5)
+      (arc (pt 0.000 -1.500) (pt -0.100 -1.700) (pt 0.100 -1.500) (start 180.0) (sweep 90.0))
+      (pt 0 -1.7)
+      (arc (pt 0.000 -1.700) (pt -0.100 -1.700) (pt 0.100 -1.500) (start 180.0) (sweep -90.0))
+      (pt 0 -1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1 1.25)
+      (pt 5.6 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 3 -1.035)
+      (pt 3.8 -1.035))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.2 -1.035)
+      (pt 1.6 -1.035))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.280 0.000) (padstack 0))
+   (leg 3 (pt 4.560 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.09)
+    (plated true)
+    (pad (layer TCOP) (round 1.725))
+    (pad (layer INNER) (round 1.725))
+    (pad (layer BCOP) (round 1.725))
+   )
+   (padstack 1
+    (hole 1.09)
+    (plated true)
+    (pad (layer TCOP) (round 1.725))
+    (pad (layer INNER) (round 1.725))
+    (pad (layer BCOP) (round 1.725))
+   )
+   (model "NTD4858N-35G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CR0603-JW-221ELF
+D Thick Film Resistors - SMD 220 OHM 5%
+K
+F https://www.bourns.com/pdfs/chpreztr.pdf
+$ENDCMP
+#
+#End Doc Library

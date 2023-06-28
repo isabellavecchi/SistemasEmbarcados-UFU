@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1164514"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-04-03-18:18:17)
+    (utime 2021-10-25-09:44:50)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "KTR18EZPJ332")
+)
+
+
+(pinAssign "ECS_1164514"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-04-03-18:18:17)
+    (utime 2021-10-25-09:44:50)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1164514")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "KTR18EZPJ332")
+)
+
+
+(part "KTR18EZPJ332"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-04-03-18:18:17)
+    (utime 2021-10-25-09:44:50)
+    (packageRef "KTR18EZPJ332")
+    (pinAssignRef "ECS_1164514")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Thick Film Resistors - SMD 1206 3.3Kohm 5% High VoltageAEC-Q200")
+    (property "Manufacturer_Name" "ROHM Semiconductor")
+    (property "Manufacturer_Part_Number" "KTR18EZPJ332")
+    (property "Mouser_Part_Number" "755-KTR18EZPJ332")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/KTR18EZPJ332?qs=DyUWGjl%252BcVu4gpCExuaT6A%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e2f1c7f0b3c549e70fed117c8f559ad0.pdf")
+    (property "compAreaTopHeight" 0.65)
+)
+
+
