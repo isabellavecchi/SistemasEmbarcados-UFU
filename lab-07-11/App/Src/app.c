@@ -33,7 +33,7 @@ void appLoop(void){
 	hw_cpuSleep();
 }
 
-void ToggleLED (int time_ms) {
+void NormalToggleLED (int time_ms) {
 	static uint32_t pressStart = 0;
 	pressStart = hw_getInstant();
 	if (hw_getInstant() - pressStart < time_ms) {
@@ -49,14 +49,15 @@ void appSwitchInterrupt(void) {
 	if (!hasAppStarted) {
 		return;
 	}
+
 }
 
 
-void uart_data_received(void) {
-	//echoa o que receber
-	hw_uart_tx(tx_data, 13, 300);
-	hw_uart_rx(tx_data, 13, 300);
-}
+//void uart_data_received(void) {
+//	//echoa o que receber
+//	hw_uart_tx(tx_data, 13, 300);
+//	hw_uart_rx(tx_data, 13, 300);
+//}
 
 //void setVoidLoopFn(void (*function)(void)) {
 //	usr_loop_fn = function;

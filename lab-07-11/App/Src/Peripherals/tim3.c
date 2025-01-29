@@ -7,12 +7,31 @@
 
 #include <tim3.h>
 
+
+
+static uint32_t pos = 0;
+uint32_t timValues[] = {199, 399, 199, 3199};
+
 void StartTimer() {
-	mw_startTimer(&htim3);
+	pos = 0;
+	hw_startTimer(&htim3, timValues[pos]);
 }
 
-void setTim3CallbackFn(void (*callback)(void)) {
-	mw_setTim3CallbackFn(callback);
+//void (*timCallbackFunc)(void) = NULL;
+
+void setTim3CallbackFn(void (*timCallbackFunc)(void)) {
+	// faz o periodo do clock variar
+	if (timCallbackFunc != NULL) {
+		hw_setTim3CallbackFn(timCallbackFunc);
+	}
+}
+
+void timOscilateARR() {
+	if (pos >= 4)
+		pos = 0;
+	hw_setTimAutoReload(&htim3, timValues[pos]);
+	hw_ressetTimCounter(&htim3);
+	pos++;
 }
 
 

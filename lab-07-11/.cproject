@@ -51,7 +51,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab-07-11/App/Inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab-07-11/App/Inc/hardware}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab-07-11/App/Inc/Peripherals}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab-07-11/App/Inc/Middleware}&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.665650314" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -101,7 +100,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab-07-11/App/Inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab-07-11/App/Inc/hardware}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab-07-11/App/Inc/Peripherals}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab-07-11/App/Inc/Middleware}&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.339267560" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>

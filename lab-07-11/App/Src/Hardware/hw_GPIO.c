@@ -27,7 +27,7 @@ bool hw_getPinState(GPIO_TypeDef* port, uint16_t pin) {
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 	if (usr_swt_cbk_gpio != NULL) {
-		deboucingTimeCapsule(usr_swt_cbk_gpio);
+		hw_deboucingTimeCapsule(usr_swt_cbk_gpio);
 //		static uint32_t instant = 0;
 //		if (getInstant() - instant >= DEBOUNCING_TIME) {
 //			instant = getInstant();
